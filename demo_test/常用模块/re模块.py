@@ -59,7 +59,7 @@ import re
 # print(ret)
 
 """分组命名"""
-s = "<a>wahaha</a>"
-ret = re.search('>(?P<con>\w+)<', s)
-print(ret.group(1))
-print(ret.group('con'))
+# s = "<a>wahaha</a>"
+# ret = re.search('>(?P<con>\w+)<', s)
+# print(ret.group(1))
+# print(ret.group('con'))

@@ -58,18 +58,18 @@ import time
 # print('过去了：%d年%d月%d日%d时%d分%d秒'%(struct_time.tm_year - 1970, struct_time.tm_mon - 1, struct_time.tm_mday - 1, struct_time.tm_hour, struct_time.tm_min, struct_time.tm_sec ))
 
 
-def con_time(time1, time2):
-    s_time1 = time.strptime(time1, '%Y-%m-%d %H:%M:%S')
-    s_time2 = time.strptime(time2, '%Y-%m-%d %H:%M:%S')
-
-    a_time1 = time.mktime(s_time1)
-    a_time2 = time.mktime(s_time2)
-    result = a_time2 - a_time1
-    print(result)
-    struct_time = time.gmtime(result)
-    print('过去了：%d年%d月%d日%d时%d分%d秒' % (
-        struct_time.tm_year - 1970, struct_time.tm_mon - 1, struct_time.tm_mday - 1, struct_time.tm_hour,
-        struct_time.tm_min, struct_time.tm_sec))
-
-
-con_time('2018-08-19 22:10:08', '2018-08-22 11:21:25')
+# def con_time(time1, time2):
+#     s_time1 = time.strptime(time1, '%Y-%m-%d %H:%M:%S')
+#     s_time2 = time.strptime(time2, '%Y-%m-%d %H:%M:%S')
+#
+#     a_time1 = time.mktime(s_time1)
+#     a_time2 = time.mktime(s_time2)
+#     result = a_time2 - a_time1
+#     print(result)
+#     struct_time = time.gmtime(result)
+#     print('过去了：%d年%d月%d日%d时%d分%d秒' % (
+#         struct_time.tm_year - 1970, struct_time.tm_mon - 1, struct_time.tm_mday - 1, struct_time.tm_hour,
+#         struct_time.tm_min, struct_time.tm_sec))
+#
+#
+# con_time('2018-08-19 22:10:08', '2018-08-22 11:21:25')

@@ -56,12 +56,44 @@ import os
 # if usr=="usr"and password=="password":
 #     os.makedirs('%s'%(usr))
 
+# l = [r'C:\Users\Administrator\gitPH\small-tools\demo_test']
+# size_sum = 0
+# while l:
+#     path = l.pop()  # 'C:\Users\Administrator\gitPH\small-tools\demo_test'
+#     path_list = os.listdir(path)  # 各级文件夹的列表
+#     for name in path_list:  # 循环各级文件的列表
+#         abs_path = os.path.join(path, name)  # 拼接文件名称在文件夹中
+#         if os.path.isdir(abs_path):  # 判断是否为文件夹
+#             l.append(abs_path)  # 由于pop会默认弹出最后一个元素
+#             print(abs_path)
+#             print(l)
+#         else:
+#             size_sum += os.path.getsize(abs_path)
+# print(size_sum)
 
 
+# def func(path):
+#     size_sum = 0
+#     name_lst = os.listdir(path)
+#     for name in name_lst:
+#         path_abs = os.path.join(path, name)
+#         if os.path.isdir(path_abs):
+#             size = func(path_abs)
+#             size_sum += size
+#         else:
+#             size_sum += os.path.getsize(path_abs)
+#     return size_sum
+#
+#
+# print(func('C:/Users\Administrator\gitPH\small-tools\demo_test'))
 
 
+# arv = [r'arv00', ]
+# print(arv.pop())
 
+# print(os.system('dir'))
 
+# print(os.listdir('C:/Users\Administrator\gitPH\small-tools\demo_test\常用模块'))
 
 
 

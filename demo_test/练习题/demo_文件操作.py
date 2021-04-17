@@ -83,4 +83,26 @@
 # login()
 
 
-"""发红包：random"""
+
+# import random
+#
+#
+# def func(money, num):
+#     """发红包：random
+#     money:红包的金额
+#     num:红包的金额
+#     """
+#     money *= 100
+#     ret = random.sample(range(1, money), num-1)
+#     ret.sort()
+#     ret.insert(0, 0)
+#     ret.append(money)
+#     for i in range(len(ret) - 1):
+#         yield (ret[i+1] - ret[i])/100
+#
+#
+# ret_g = func(100, 10)
+# for money in ret_g:
+#     print(money)
+# # print(random.sample(range(200), 9))
+
