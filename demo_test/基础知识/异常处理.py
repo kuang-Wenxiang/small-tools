@@ -26,3 +26,24 @@
 # except Exception as e:
 #     print(e.args)
 #     print(2)
+
+"""else分支"""
+# 当try中的代码不发生异常的时候走else分支
+"""finally分支"""
+# 不管有没有错，都执行finally
+# def func():
+#     f = open('file')
+#     try:
+#         while True:
+#             for line in f:
+#                 if line.startwith('a'):
+#                     return line
+#     except:
+#         print('异常处理')
+#     finally:
+#         f.close()
+"""主动抛出异常"""
+# raise ValueError('abc')
+# django
+"""断言-语法"""
+# assert 1==2

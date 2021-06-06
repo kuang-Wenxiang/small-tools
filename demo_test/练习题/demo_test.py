@@ -22,9 +22,17 @@
 # print(list(filter(lambda x: share[x] > 20, share)))
 
 
-l = ['login', 'register']
+# l = ['login', 'register']
 # for num, i in enumerate(l, 1):
 #     print(num, i)
 # for num, i in enumerate(l):
 #     print(num, i)
+
+
+def func(nums):
+    a = list(set(nums))
+    return a
+
+
+print(func(nums=[1, 1, 2]))
 
